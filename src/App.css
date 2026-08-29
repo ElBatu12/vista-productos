@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
   background-color: #f8f9fc;
   color: #0f172a;
 }
@@ -35,7 +35,7 @@ body {
   align-items: center;
   gap: 10px;
   font-weight: 700;
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   color: #0f766e;
   margin-bottom: 32px;
   padding: 0 8px;
@@ -72,7 +72,7 @@ body {
   border-radius: 8px;
   color: #334155;
   cursor: pointer;
-  font-size: 1.05rem;
+  font-size: 0.98rem;
   font-weight: 500;
 }
 
@@ -163,14 +163,14 @@ body {
 
 .products-header h1 {
   margin: 0 0 10px;
-  font-size: 2.75rem;
-  font-weight: 800;
+  font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .products-header p {
   margin: 0;
   color: #64748b;
-  font-size: 1.05rem;
+  font-size: 0.98rem;
 }
 
 .new-product-btn {
@@ -180,10 +180,10 @@ body {
   background-color: #0f766e;
   color: #fff;
   border: none;
-  padding: 14px 20px;
+  padding: 12px 18px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -212,7 +212,7 @@ body {
 
 .filter-block h4 {
   margin: 0 0 14px;
-  font-size: 1.15rem;
+  font-size: 1.02rem;
   font-weight: 700;
 }
 
@@ -227,7 +227,7 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 12px;
-  font-size: 1rem;
+  font-size: 0.92rem;
 }
 
 .category-list input[type="checkbox"] {
@@ -275,8 +275,8 @@ body {
 }
 
 .product-icon-box {
-  background-color: #e5eefd;
-  color: #2563eb;
+  background-color: #e5e9fb;
+  color: #4338ca;
   width: 44px;
   height: 44px;
   border-radius: 10px;
@@ -286,8 +286,8 @@ body {
 }
 
 .category-badge {
-  background-color: #dbeafe;
-  color: #1d4ed8;
+  background-color: #e5e9fb;
+  color: #4338ca;
   font-size: 0.75rem;
   font-weight: 600;
   padding: 4px 10px;
@@ -296,15 +296,15 @@ body {
 
 .product-card h3 {
   margin: 0 0 8px;
-  font-size: 1.4rem;
+  font-size: 1.22rem;
   font-weight: 700;
 }
 
 .product-description {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: #64748b;
   flex-grow: 1;
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 .product-card hr {
@@ -329,7 +329,7 @@ body {
 
 .product-price {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: #0f766e;
 }
@@ -348,7 +348,7 @@ body {
   border: none;
   color: #0f766e;
   cursor: pointer;
-  font-size: 0.98rem;
+  font-size: 0.92rem;
   font-weight: 600;
   padding: 0;
 }
