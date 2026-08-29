@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: "Poppins", "Segoe UI", Roboto, Arial, sans-serif;
   background-color: #f8f9fc;
   color: #0f172a;
 }
@@ -35,7 +35,7 @@ body {
   align-items: center;
   gap: 10px;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.35rem;
   color: #0f766e;
   margin-bottom: 32px;
   padding: 0 8px;
@@ -68,11 +68,12 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 12px 12px;
+  padding: 14px 12px;
   border-radius: 8px;
-  color: #475569;
+  color: #334155;
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
+  font-weight: 500;
 }
 
 .sidebar-nav-item:hover {
@@ -102,12 +103,12 @@ body {
 .user-name {
   margin: 0;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 .user-plan {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   color: #64748b;
 }
 
@@ -161,13 +162,15 @@ body {
 }
 
 .products-header h1 {
-  margin: 0 0 8px;
-  font-size: 2rem;
+  margin: 0 0 10px;
+  font-size: 2.75rem;
+  font-weight: 800;
 }
 
 .products-header p {
   margin: 0;
   color: #64748b;
+  font-size: 1.05rem;
 }
 
 .new-product-btn {
@@ -177,10 +180,10 @@ body {
   background-color: #0f766e;
   color: #fff;
   border: none;
-  padding: 12px 18px;
+  padding: 14px 20px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -209,7 +212,8 @@ body {
 
 .filter-block h4 {
   margin: 0 0 14px;
-  font-size: 1rem;
+  font-size: 1.15rem;
+  font-weight: 700;
 }
 
 .category-list {
@@ -223,7 +227,7 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 12px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .category-list input[type="checkbox"] {
@@ -292,14 +296,15 @@ body {
 
 .product-card h3 {
   margin: 0 0 8px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 .product-description {
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   color: #64748b;
   flex-grow: 1;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .product-card hr {
@@ -324,13 +329,13 @@ body {
 
 .product-price {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #0f766e;
 }
 
 .price-suffix {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 400;
   color: #64748b;
 }
@@ -343,7 +348,7 @@ body {
   border: none;
   color: #0f766e;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.98rem;
   font-weight: 600;
   padding: 0;
 }
