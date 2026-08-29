@@ -260,7 +260,7 @@ body {
 
 .product-card {
   background-color: #ffffff;
-  background-image: linear-gradient(135deg, rgba(219, 234, 254, 0.35) 0%, rgba(219, 234, 254, 0) 40%);
+  background-image: linear-gradient(225deg, rgba(219, 234, 254, 0.35) 0%, rgba(219, 234, 254, 0) 40%);
   border: 1px solid #e2e8f0;
   border-radius: 10px;
   padding: 24px;
@@ -271,7 +271,7 @@ body {
 }
 
 .product-card:hover {
-  background-image: linear-gradient(135deg, rgba(219, 234, 254, 0.7) 0%, rgba(219, 234, 254, 0) 45%);
+  background-image: linear-gradient(225deg, rgba(219, 234, 254, 0.7) 0%, rgba(219, 234, 254, 0) 45%);
 }
 
 .product-card-top {
@@ -283,7 +283,7 @@ body {
 
 .product-icon-box {
   background-color: #dbeafe;
-  color: #1d4ed8;
+  color: #0f766e;
   width: 44px;
   height: 44px;
   border-radius: 10px;
