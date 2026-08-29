@@ -18,8 +18,8 @@ body {
 .sidebar {
   width: 260px;
   flex-shrink: 0;
-  background-color: #f4f6fb;
-  border-right: 1px solid #e5e8f2;
+  background-color: #dbeafe;
+  border-right: 1px solid #bfdbfe;
   display: flex;
   flex-direction: column;
   padding: 24px 16px;
@@ -76,7 +76,7 @@ body {
 }
 
 .sidebar-nav-item:hover {
-  background-color: #e2e7f5;
+  background-color: #bfdbfe;
 }
 
 .sidebar-nav-item.active {
@@ -90,7 +90,7 @@ body {
   align-items: center;
   gap: 10px;
   padding: 12px 8px;
-  border-top: 1px solid #e0e4f0;
+  border-top: 1px solid #bfdbfe;
   margin-top: 16px;
 }
 
