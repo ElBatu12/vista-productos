@@ -35,7 +35,7 @@ body {
   align-items: center;
   gap: 10px;
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 1.22rem;
   color: #0f766e;
   margin-bottom: 32px;
   padding: 0 8px;
@@ -72,7 +72,7 @@ body {
   border-radius: 8px;
   color: #334155;
   cursor: pointer;
-  font-size: 0.98rem;
+  font-size: 1.02rem;
   font-weight: 500;
 }
 
@@ -163,14 +163,14 @@ body {
 
 .products-header h1 {
   margin: 0 0 10px;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .products-header p {
   margin: 0;
   color: #64748b;
-  font-size: 0.98rem;
+  font-size: 1.02rem;
 }
 
 .new-product-btn {
@@ -183,7 +183,7 @@ body {
   padding: 12px 18px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 0.98rem;
   font-weight: 600;
   white-space: nowrap;
 }
@@ -212,7 +212,7 @@ body {
 
 .filter-block h4 {
   margin: 0 0 14px;
-  font-size: 1.02rem;
+  font-size: 1.08rem;
   font-weight: 700;
 }
 
@@ -227,7 +227,7 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 12px;
-  font-size: 0.92rem;
+  font-size: 0.96rem;
 }
 
 .category-list input[type="checkbox"] {
@@ -275,8 +275,8 @@ body {
 }
 
 .product-icon-box {
-  background-color: #e5e9fb;
-  color: #4338ca;
+  background-color: #eef1f5;
+  color: #334155;
   width: 44px;
   height: 44px;
   border-radius: 10px;
@@ -286,8 +286,8 @@ body {
 }
 
 .category-badge {
-  background-color: #e5e9fb;
-  color: #4338ca;
+  background-color: #eef1f5;
+  color: #334155;
   font-size: 0.75rem;
   font-weight: 600;
   padding: 4px 10px;
@@ -296,15 +296,15 @@ body {
 
 .product-card h3 {
   margin: 0 0 8px;
-  font-size: 1.22rem;
+  font-size: 1.32rem;
   font-weight: 700;
 }
 
 .product-description {
-  font-size: 0.9rem;
+  font-size: 0.94rem;
   color: #64748b;
   flex-grow: 1;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .product-card hr {
@@ -329,7 +329,7 @@ body {
 
 .product-price {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   font-weight: 700;
   color: #0f766e;
 }
@@ -348,7 +348,7 @@ body {
   border: none;
   color: #0f766e;
   cursor: pointer;
-  font-size: 0.92rem;
+  font-size: 0.96rem;
   font-weight: 600;
   padding: 0;
 }
