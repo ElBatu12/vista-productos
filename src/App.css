@@ -369,24 +369,37 @@ body {
 }
 
 .feature-item {
-  background-color: #ffffff;
-  border: 1px solid #e2e8f0;
+  background-color: #eaf1fb;
   border-radius: 10px;
   padding: 20px;
-  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  text-align: left;
 }
 
-.feature-item .material-icons-outlined {
+.feature-icon-box {
+  background-color: #ffffff;
   color: #0f766e;
-  font-size: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-icon-box .material-icons-outlined {
+  font-size: 1.3rem;
 }
 
 .feature-item h4 {
-  margin: 8px 0 6px;
+  margin: 0 0 4px;
 }
 
 .feature-item p {
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   color: #6b7280;
   margin: 0;
 }
