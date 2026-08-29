@@ -85,3 +85,10 @@ vista-producto/
     └── data/
         └── products.js
 ```
+
+## Recuerda para la entrega
+
+- Haz **commits frecuentes** en Git a medida que integres esto (no un solo
+  commit gigante al final) — el profe revisa el historial.
+- Sube el repo a GitHub/GitLab y entrega el enlace por el formulario oficial.
+- Plazo: este sábado, 23:59 hrs.

@@ -265,6 +265,12 @@ body {
   padding: 24px;
   display: flex;
   flex-direction: column;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  background-color: #f1f5f9;
 }
 
 .product-card-top {
@@ -275,8 +281,8 @@ body {
 }
 
 .product-icon-box {
-  background-color: #eef1f5;
-  color: #334155;
+  background-color: #dbeafe;
+  color: #1d4ed8;
   width: 44px;
   height: 44px;
   border-radius: 10px;
@@ -286,8 +292,8 @@ body {
 }
 
 .category-badge {
-  background-color: #eef1f5;
-  color: #334155;
+  background-color: #dbeafe;
+  color: #1d4ed8;
   font-size: 0.75rem;
   font-weight: 600;
   padding: 4px 10px;
