@@ -97,7 +97,7 @@ body {
 
 .sidebar-user .material-icons-outlined {
   font-size: 2rem;
-  color: #64748b;
+  color: #6b7280;
 }
 
 .user-name {
@@ -109,7 +109,7 @@ body {
 .user-plan {
   margin: 0;
   font-size: 0.82rem;
-  color: #64748b;
+  color: #6b7280;
 }
 
 /* ---------- Main content ---------- */
@@ -169,7 +169,7 @@ body {
 
 .products-header p {
   margin: 0;
-  color: #64748b;
+  color: #6b7280;
   font-size: 1.02rem;
 }
 
@@ -246,7 +246,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 0.8rem;
-  color: #64748b;
+  color: #6b7280;
   margin-top: 6px;
 }
 
@@ -260,17 +260,18 @@ body {
 
 .product-card {
   background-color: #ffffff;
+  background-image: linear-gradient(135deg, rgba(219, 234, 254, 0.35) 0%, rgba(219, 234, 254, 0) 40%);
   border: 1px solid #e2e8f0;
   border-radius: 10px;
   padding: 24px;
   display: flex;
   flex-direction: column;
-  transition: background-color 0.2s ease;
+  transition: background-image 0.2s ease;
   cursor: pointer;
 }
 
 .product-card:hover {
-  background-color: #f1f5f9;
+  background-image: linear-gradient(135deg, rgba(219, 234, 254, 0.7) 0%, rgba(219, 234, 254, 0) 45%);
 }
 
 .product-card-top {
@@ -308,7 +309,7 @@ body {
 
 .product-description {
   font-size: 0.94rem;
-  color: #64748b;
+  color: #6b7280;
   flex-grow: 1;
   line-height: 1.5;
 }
@@ -343,7 +344,7 @@ body {
 .price-suffix {
   font-size: 0.9rem;
   font-weight: 400;
-  color: #64748b;
+  color: #6b7280;
 }
 
 .details-btn {
@@ -386,6 +387,6 @@ body {
 
 .feature-item p {
   font-size: 0.85rem;
-  color: #64748b;
+  color: #6b7280;
   margin: 0;
 }
